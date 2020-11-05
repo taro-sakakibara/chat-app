@@ -8,7 +8,7 @@
  </div>
 
  <div class="main_chat_contents">
-   <%= render partial: 'message', collection: @messages %>
+   <%= render partial: 'message',collection: @messages%>
  </div>
 
 <%= form_with model: [@room, @message], class: 'main_chat_bottom', local: true do |f| %>
